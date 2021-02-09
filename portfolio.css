@@ -1,0 +1,349 @@
+
+
+
+ 
+ header, section, footer, aside, nav, article, figure, figcaption {
+ display: block;} /*to tell brower that it is block level elements*/
+
+ body {
+ color: black;
+ background-color:rgb(185, 177, 177);
+ background-image: url("images/dark-wood.jpg");
+ background-position: center;
+ font-family: Georgia, times, serif;
+ line-height: 1.4em;
+ margin: 0px;}
+
+ .wrapper {
+ width: 940px;
+ height: 970px;
+ margin: 20px auto 20px auto;
+ border: 2px solid gray;
+ background-color: white;
+ margin-top: -23px;}
+
+ header {
+ height: 160px;
+ background-image: url(images/header.jpg);}
+
+ h1 {
+ text-indent: -9999px;
+ width: 940px;
+ height: 130px;
+ margin: 0px;}
+
+ nav, footer {
+ clear: both;
+ color: #ffffff;
+ background-color: black;
+ height: 30px;
+ margin-top: -6px;}
+
+ nav ul {
+ margin: 0px;
+ padding: 5px 0px 5px 30px;}
+ nav li {
+ display: inline;
+ margin-right: 40px;}
+ nav li a { 
+     color: #ffffff;}
+ nav li a:hover, nav li a.current {
+ color: #000000;}
+
+ section.picabout{
+     color: tomato;
+     height: 260px;
+ }
+ article {
+ clear: both;
+ overflow: auto;
+ width: 100%;}
+ hgroup {
+ margin-top:40px;}
+ figure {
+    float: left;
+    width: 210px;
+    height: 240px;
+    padding: 5px;
+    margin: 20px;
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+}
+ figcaption {
+ font-size: 90%;
+
+ text-align: left;}
+
+ aside {
+ width: 230px;
+ float: left;
+ padding: 0px 0px 0px 20px;}
+ aside section a {
+ display: block;
+ padding: 10px;
+ border-bottom: 1px solid #eeeeee;}
+ aside section a:hover {
+ color: #985d6a;
+ background-color: #efefef;}
+ a {
+ color: #de6581;
+ text-decoration: none;}
+ h1, h2, h3 {
+     color: red;
+ font-weight: normal;}
+ 
+ h2 { 
+     margin: 10px 0px 5px 0px;
+ padding: 0px;}
+ h3 {
+ margin: 0px 0px 10px 0px;
+ color: #de6581;}
+ aside h2 {
+ padding: 30px 0px 10px 0px;
+ color: #de6581;}
+ footer {
+ font-size: 80%;
+ padding: 7px 0px 0px 20px;}
+ h2.banner {
+    
+    margin-top: -0px;
+    
+  
+}
+ figcaption.taxt {
+    margin-left: 300px; 
+    margin-top: -330px;
+ }
+ p{
+     text-align: justify;
+     margin-right: 30px;
+ }
+ img.a {
+    height: 300px;
+    width: 940px;
+}
+#about{
+    
+    color: #3a3a3a;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    text-align: left;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-align: center;
+  text-align-last: center;
+  color: black;
+  margin-top: 1px;
+  }
+  .skill{
+      margin: auto;
+  }
+  #skills{
+    color: #3a3a3a;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    margin: 0;
+text-align: center;
+  }
+  img.html5{
+    width: 140px;
+    height: 150px;
+margin-top: 20px;
+margin-left: 25px; }
+
+ figure.figskill{
+margin-left: 58px;
+height: 260px;
+}
+figcaption.figcap{
+    height: 100px;
+    width: 200px;
+}
+#portfolio{
+    color: #3a3a3a;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    margin: 0;
+text-align: center;
+margin-top: 80px;
+margin-left: 200px;
+margin: 20px auto 20px auto;
+
+
+}
+
+
+section.porthead{
+    height: 450px;
+        background-color:white;
+    padding-top: 15px;
+    margin: 0 auto;
+   
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #744b55;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #744b55;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 800px;
+  height: 560px;
+  margin: 0 auto;
+  }
+
+form.form{
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+}
+#contact{
+    color: #3a3a3a;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    margin: 0;
+text-align: center;
+margin-top: 80px;
+margin-left: 200px;
+margin: 20px auto 20px auto;
+
+}
+#travelname{
+    
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    margin: 0;
+text-align: center;
+margin-top: 80px;
+margin-left: 200px;
+margin: 20px auto 20px auto;
+}
+
+
+.travel{
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+     overflow: auto;
+    }
+.gallery{
+         margin: 5px;
+         border: 1px solid #ccc;
+         float: left;
+         width: 388px;
+     }
+.gallery img{
+    width: 100%;
+    height: auto;
+
+}
+img.size{
+    width:388px;
+    height: 388px;
+    
+}
+
+.column {
+    float: left;
+    padding: 25px;
+    width: 446px;
+  height: 100px;
+    color: #3a3a3a;
+margin: 0 auto;
+}
+
+  
+.travl{
+    width: 380px;
+    height: 390px;
+    display: inline;
+    float: left;
+    margin: 20px auto 20px auto;
+    margin-left: 90px;
+
+}
+img.portsize{
+    width: 432px;
+    height: 300px;
+}
+img.profile{
+    width: 210px;
+    height: 240px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+  
+  
+  /* Clear floats after image containers */
+  .row{
+      height: 500px;
+      display:inline-block;
+
+  }
+
+@media only screen and (max-device-width: 700px)
+{
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;} /*to tell brower that it is block level elements*/
+   
+    body {
+    color: red;
+    background-color: red;
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, times, serif;
+    line-height: 1.4em;
+    margin: -10px;}
+   
+    .wrapper {
+        width: 940px;
+        height: 950px;
+        margin: 20px auto 20px auto;
+        border: 2px solid red;
+        background-color: red;
+        margin-top: -23px;}
+       
+          figcaption.figcap{
+            height: 100px;
+            width: 200px;
+            color: black;
+        }
+    
+}
